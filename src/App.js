@@ -14,7 +14,7 @@ import TokenSite from './components/dashboard/TokenSite';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/everx">
       <div className="App">
         <Routes>
           <Route exact path="" element={<><div className='background' /><Title /><Navbar /><Footer /></>} />
